@@ -30,5 +30,23 @@ Mongoose offers Object Data Modelling, basically a neater way to work with mongo
 Responsible for Object Data Modelling
 
 
+### How to Use
+1. [Create](https://www.mongodb.com/basics/create-database) a MongoDB 
+2. Create a `.env` file then;
+```shell
+cp .env.sample  .env
+```
+3. In your `.env` file, replace the following with your credentials and MongoDB connection string
+```javascript
+MONGODB_USERNAME=username /*your MongoDB username*/
+MONGODB_PASSWORD=password /*your MongoDB db password*/
+MONGODB_CLUSTER=MongoDB_cluster /*your MongoDB connection string*/
+```
+4. Start the server
+```shell
+npm run dev
+```
+
+
 ##### Credits 🙏🏾
 This project was made following through Brad Traversy's GraphQL [tutorial](https://www.youtube.com/watch?v=BcLNfwF04Kw). Thanks [Brad](https://github.com/bradtraversy)
