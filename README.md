@@ -31,6 +31,9 @@ Responsible for Object Data Modelling
 
 
 ### How to Use
+Go ahead and clone this repo `git clone https://github.com/muriukialex/comapp-server.git` then run `yarn add` or `npm i`
+#### Test out the server
+
 1. [Create](https://www.mongodb.com/basics/create-database) a MongoDB 
 2. Create a `.env` file then;
 ```shell
@@ -43,6 +46,10 @@ MONGODB_PASSWORD=password /*your MongoDB db password*/
 MONGODB_CLUSTER=MongoDB_cluster /*your MongoDB connection string*/
 ```
 4. Start the server
+```shell
+yarn dev
+```
+OR
 ```shell
 npm run dev
 ```
