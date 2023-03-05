@@ -1,19 +1,18 @@
 # comapp-server 
 
-## Backend for a `clients & projects` project with the implementations below
+### Description 
+Backend for a `clients & projects` project with the implementations below
 
-### Client
   - Create a client
   - Update client info
   - Delete client info
-
-### Project
- - Create a project 
- - Update project info
- - Delete project info
+  - Create a project 
+  - Update project info
+  - Delete project info
 
 
-Technologies used
+### Technologies
+
 #### [Express](https://expressjs.com/)
 Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications
 Responsible for serving the server
@@ -26,6 +25,10 @@ Responsible for connecting expressjs and graphql
 GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more
 Responsible for defining the graphQL query schemas and providing the GrapphQL schema types 
  
-#### [mongoose](https://mongoosejs.com/)
-Mongoose offers Object Data Modelling. It's bascially a neater way to walk to mongoDB
+#### [Mongoose](https://mongoosejs.com/)
+Mongoose offers Object Data Modelling, basically a neater way to work with mongoDB in this case
 Responsible for Object Data Modelling
+
+
+##### Credits 🙏🏾
+This project was made following through Brad Traversy's GraphQL [tutorial](https://www.youtube.com/watch?v=BcLNfwF04Kw). Thanks [Brad](https://github.com/bradtraversy)
