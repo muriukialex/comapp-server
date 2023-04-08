@@ -1,15 +1,7 @@
 # comapp-server 
 
 ### Description 
-Backend for a `clients & projects` project with the implementations below
-
-  - Create a client
-  - Update client info
-  - Delete client info
-  - Create a project 
-  - Update project info
-  - Delete project info
-
+GraphQL API for a `clients & projects` that has Creating, Updating and Deleting implementations for both project and client info
 
 ### Technologies
 
